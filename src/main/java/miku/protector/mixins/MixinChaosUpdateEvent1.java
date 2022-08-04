@@ -20,7 +20,7 @@ import java.util.Collection;
 
 import static com.chaoswither.event.ChaosUpdateEvent1.isWitherWorld;
 
-@Mixin(value = ChaosUpdateEvent1.class)
+@Mixin(value = ChaosUpdateEvent1.class,remap = false)
 public abstract class MixinChaosUpdateEvent1 {
 
     /**

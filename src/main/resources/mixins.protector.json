@@ -3,14 +3,13 @@
   "minVersion": "0.8.4",
   "package": "miku.protector.mixins",
   "mixins": [
-    "MixinAzathothInvocationRitual",
     "MixinChaosUpdateEvent",
     "MixinChaosUpdateEvent1",
-    "MixinLoliDeadPacket",
-    "MixinPlayerKillUtil",
+    "MixinItemChaosEgg",
     "MixinWorld"
   ],
   "client": [
+    "MixinLoliDeadPacket"
   ],
   "server": [],
   "required": false

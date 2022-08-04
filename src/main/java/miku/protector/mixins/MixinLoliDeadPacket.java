@@ -8,7 +8,7 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Overwrite;
 
-@Mixin(value = LoliDeadPacket.MessageHandler.class)
+@Mixin(value = LoliDeadPacket.MessageHandler.class,remap = false)
 public class MixinLoliDeadPacket {
 
     /**

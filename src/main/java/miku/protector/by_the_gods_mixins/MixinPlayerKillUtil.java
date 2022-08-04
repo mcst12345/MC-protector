@@ -1,4 +1,4 @@
-package miku.protector.mixins;
+package miku.protector.by_the_gods_mixins;
 
 import com.shinoow.btg.common.util.PlayerKillUtil;
 import net.minecraft.entity.Entity;
@@ -8,7 +8,7 @@ import net.minecraft.world.World;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Overwrite;
 
-@Mixin(value = PlayerKillUtil.class)
+@Mixin(value = PlayerKillUtil.class,remap = false)
 public class MixinPlayerKillUtil {
     /**
      * @author mcst12345

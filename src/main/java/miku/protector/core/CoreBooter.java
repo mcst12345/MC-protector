@@ -1,8 +1,9 @@
-package miku.protector.mixinbooter;
+package miku.protector.core;
 
 import net.minecraftforge.fml.relauncher.IFMLLoadingPlugin;
 import org.spongepowered.asm.launch.MixinBootstrap;
 import org.spongepowered.asm.mixin.Mixins;
+import org.spongepowered.asm.service.MixinService;
 
 import javax.annotation.Nullable;
 import java.util.Map;
@@ -15,7 +16,8 @@ public class CoreBooter implements IFMLLoadingPlugin {
 
     @Override
     public String[] getASMTransformerClass() {
-        return new String[0];
+        MixinService.getService().getTransformerProvider().addTransformerExclusion("com.shinoow.btg.common.rituals.AzathothInvocationRitual");
+        return new String[]{"miku.protector.core.Transformer.ByTheGodsTransformer"};
     }
 
     @Override
