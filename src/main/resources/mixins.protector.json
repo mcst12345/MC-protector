@@ -1,0 +1,17 @@
+{
+  "compatibilityLevel": "JAVA_8",
+  "minVersion": "0.8.4",
+  "package": "miku.protector.mixins",
+  "mixins": [
+    "MixinAzathothInvocationRitual",
+    "MixinChaosUpdateEvent",
+    "MixinChaosUpdateEvent1",
+    "MixinLoliDeadPacket",
+    "MixinPlayerKillUtil",
+    "MixinWorld"
+  ],
+  "client": [
+  ],
+  "server": [],
+  "required": false
+}
