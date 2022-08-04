@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: protector
+Implementation-Version: miku
+FMLCorePluginContainsFMLMod: true
+Specification-Vendor: mcst12345
+Specification-Title: protector
+Implementation-Timestamp: 2022-08-04T19:29:00+0800
+Specification-Version: 1
+FMLCorePlugin: miku.protector.core.CoreBooter
+Implementation-Vendor: mcst12345
+

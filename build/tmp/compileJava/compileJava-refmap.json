@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "miku/protector/mixins/MixinWorld": {
+      "spawnEntity": "Lnet/minecraft/world/World;func_72838_d(Lnet/minecraft/entity/Entity;)Z"
+    }
+  },
+  "data": {
+    "searge": {
+      "miku/protector/mixins/MixinWorld": {
+        "spawnEntity": "Lnet/minecraft/world/World;func_72838_d(Lnet/minecraft/entity/Entity;)Z"
+      }
+    }
+  }
+}
