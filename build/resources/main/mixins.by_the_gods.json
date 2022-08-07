@@ -4,7 +4,7 @@
   "package": "miku.protector.by_the_gods_mixins",
   "mixins": [
     "MixinAzathothInvocationRitual",
-    "MixinPlayerKillUtil",
+    "MixinPlayerKillUtil"
   ],
   "client": [
   ],

@@ -6,7 +6,8 @@
     "MixinChaosUpdateEvent",
     "MixinChaosUpdateEvent1",
     "MixinItemChaosEgg",
-    "MixinWorld"
+    "MixinWorld",
+    "MixinWorldServer"
   ],
   "client": [
     "MixinLoliDeadPacket"

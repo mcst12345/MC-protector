@@ -1,0 +1,14 @@
+{
+  "compatibilityLevel": "JAVA_8",
+  "minVersion": "0.8.4",
+  "package": "miku.protector.dragon_mixins",
+  "mixins": [
+    "MixinBoom",
+    "MixinChaosImplosion",
+    "MixinChaosImplosionTrace"
+  ],
+  "client": [
+  ],
+  "server": [],
+  "required": false
+}

@@ -1,17 +1,22 @@
 Java Launcher: /usr/lib/jvm/java-8-openjdk-amd64/bin/java
-Arguments: '--in-jar, /root/IdeaProjects/Protector/build/libs/protector-miku.jar, --out-jar, /root/IdeaProjects/Protector/build/reobfJar/output.jar, --srg-in, /root/IdeaProjects/Protector/build/createMcpToSrg/output.tsrg, --srg-in, /root/IdeaProjects/Protector/build/tmp/compileJava/compileJava-mappings.tsrg, --live'
+Arguments: '--in-jar, /root/IdeaProjects/Protector/build/libs/protector-1.1.jar, --out-jar, /root/IdeaProjects/Protector/build/reobfJar/output.jar, --srg-in, /root/IdeaProjects/Protector/build/createMcpToSrg/output.tsrg, --srg-in, /root/IdeaProjects/Protector/build/tmp/compileJava/compileJava-mappings.tsrg, --live'
 Classpath:
  - /root/.gradle/caches/forge_gradle/maven_downloader/net/md-5/SpecialSource/1.11.0/SpecialSource-1.11.0-shaded.jar
  - /root/IdeaProjects/Protector/libs/Grue-1.12.2-1.8.1.jar
  - /root/IdeaProjects/Protector/libs/Cthulhu-0.0.1-beta.jar
  - /root/IdeaProjects/Protector/libs/iceandfire-1.8.4.jar
  - /root/IdeaProjects/Protector/libs/AbyssalCraft-1.12.2-1.10.4.jar
+ - /root/IdeaProjects/Protector/libs/BrandonsCore-1.12.2-2.4.20.162-universal.jar
  - /root/IdeaProjects/Protector/libs/CTHULHU MYTHOS 1.1.4.jar
  - /root/IdeaProjects/Protector/libs/By+The+Gods-1.12.2-1.1.1.jar
+ - /root/IdeaProjects/Protector/libs/CodeChickenLib-1.12.2-3.2.3.358-universal.jar
  - /root/IdeaProjects/Protector/libs/DarknessLib-1.12.2-1.1.2.jar
  - /root/IdeaProjects/Protector/libs/llibrary-1.7.19-1.12.2.jar
  - /root/IdeaProjects/Protector/libs/LoliPickaxe-1.2.12-1.12.2.jar
  - /root/IdeaProjects/Protector/libs/CodeWither-mc1.12-0.2.3beta.jar
+ - /root/IdeaProjects/Protector/libs/RedstoneFlux-1.12-2.1.1.1-universal.jar
+ - /root/IdeaProjects/Protector/libs/StemWeapon-2.0.8.jar
+ - /root/IdeaProjects/Protector/libs/Draconic-Evolution-1.12.2-2.3.28.354-universal.jar
  - /root/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5-SNAPSHOT/afd548f754a72df63a853c0cc1d064b6fcf76441/mixin-0.8.5-SNAPSHOT.jar
  - /root/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.12.2-14.23.5.2860_mapped_stable_39-1.12/forge-1.12.2-14.23.5.2860_mapped_stable_39-1.12-recomp.jar
  - /root/.gradle/caches/forge_gradle/minecraft_repo/versions/1.12.2/client-extra.jar
@@ -94,14 +99,14 @@ Loading mappings... 40%
 Loading mappings... 50%
 0 packages, 3344 classes, 11915 fields, 20817 methods
 Remapping final jar
-Remapping jar...  5%
-Remapping jar... 14%
-Remapping jar... 24%
-Remapping jar... 33%
-Remapping jar... 43%
-Remapping jar... 52%
-Remapping jar... 62%
-Remapping jar... 71%
+Remapping jar...  3%
+Remapping jar... 13%
+Remapping jar... 22%
+Remapping jar... 31%
+Remapping jar... 41%
+Remapping jar... 50%
+Remapping jar... 63%
+Remapping jar... 72%
 Remapping jar... 81%
-Remapping jar... 90%
+Remapping jar... 91%
 Remapping jar... 100%

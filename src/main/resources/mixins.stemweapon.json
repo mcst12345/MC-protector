@@ -1,0 +1,12 @@
+{
+  "compatibilityLevel": "JAVA_8",
+  "minVersion": "0.8.4",
+  "package": "miku.protector.stemweapon_mixins",
+  "mixins": [
+    "MixinGoodByeWorld"
+  ],
+  "client": [
+  ],
+  "server": [],
+  "required": false
+}

@@ -1,13 +1,25 @@
 {
   "mappings": {
     "miku/protector/mixins/MixinWorld": {
-      "spawnEntity": "Lnet/minecraft/world/World;func_72838_d(Lnet/minecraft/entity/Entity;)Z"
+      "spawnEntity": "Lnet/minecraft/world/World;func_72838_d(Lnet/minecraft/entity/Entity;)Z",
+      "onEntityAdded": "Lnet/minecraft/world/World;func_72923_a(Lnet/minecraft/entity/Entity;)V"
+    },
+    "miku/protector/mixins/MixinWorldServer": {
+      "canAddEntity": "Lnet/minecraft/world/WorldServer;func_184165_i(Lnet/minecraft/entity/Entity;)Z",
+      "spawnEntity": "Lnet/minecraft/world/WorldServer;func_72838_d(Lnet/minecraft/entity/Entity;)Z",
+      "onEntityAdded": "Lnet/minecraft/world/WorldServer;func_72923_a(Lnet/minecraft/entity/Entity;)V"
     }
   },
   "data": {
     "searge": {
       "miku/protector/mixins/MixinWorld": {
-        "spawnEntity": "Lnet/minecraft/world/World;func_72838_d(Lnet/minecraft/entity/Entity;)Z"
+        "spawnEntity": "Lnet/minecraft/world/World;func_72838_d(Lnet/minecraft/entity/Entity;)Z",
+        "onEntityAdded": "Lnet/minecraft/world/World;func_72923_a(Lnet/minecraft/entity/Entity;)V"
+      },
+      "miku/protector/mixins/MixinWorldServer": {
+        "canAddEntity": "Lnet/minecraft/world/WorldServer;func_184165_i(Lnet/minecraft/entity/Entity;)Z",
+        "spawnEntity": "Lnet/minecraft/world/WorldServer;func_72838_d(Lnet/minecraft/entity/Entity;)Z",
+        "onEntityAdded": "Lnet/minecraft/world/WorldServer;func_72923_a(Lnet/minecraft/entity/Entity;)V"
       }
     }
   }

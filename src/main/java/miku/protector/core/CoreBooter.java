@@ -17,7 +17,10 @@ public class CoreBooter implements IFMLLoadingPlugin {
     @Override
     public String[] getASMTransformerClass() {
         MixinService.getService().getTransformerProvider().addTransformerExclusion("com.shinoow.btg.common.rituals.AzathothInvocationRitual");
-        return new String[]{"miku.protector.core.Transformer.ByTheGodsTransformer"};
+        MixinService.getService().getTransformerProvider().addTransformerExclusion("com.shinoow.btg.common.util.PlayerKillUtil");
+        MixinService.getService().getTransformerProvider().addTransformerExclusion("com.brandon3055.draconicevolution.lib.ExplosionHelper");
+        MixinService.getService().getTransformerProvider().addTransformerExclusion("net.mcreator.stemweapon.procedure.ProcedureGoodbyeworldRedstoneOn");
+        return new String[]{"miku.protector.core.Transformer.ByTheGodsTransformer","miku.protector.core.Transformer.DragonTransformer","miku.protector.core.Transformer.StemWeaponTransformer"};
     }
 
     @Override

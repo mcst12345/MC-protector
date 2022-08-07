@@ -12,7 +12,7 @@ plugins {
 
 
 group = 'miku'
-version = 'miku'
+version = '1.1'
 
 java {
     archivesBaseName = 'protector'
