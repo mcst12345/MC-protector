@@ -1,5 +1,5 @@
 Java Launcher: /usr/lib/jvm/java-8-openjdk-amd64/bin/java
-Arguments: '--in-jar, /root/IdeaProjects/Protector/build/libs/protector-1.1.jar, --out-jar, /root/IdeaProjects/Protector/build/reobfJar/output.jar, --srg-in, /root/IdeaProjects/Protector/build/createMcpToSrg/output.tsrg, --srg-in, /root/IdeaProjects/Protector/build/tmp/compileJava/compileJava-mappings.tsrg, --live'
+Arguments: '--in-jar, /root/IdeaProjects/Protector/build/libs/protector-1.2.jar, --out-jar, /root/IdeaProjects/Protector/build/reobfJar/output.jar, --srg-in, /root/IdeaProjects/Protector/build/createMcpToSrg/output.tsrg, --srg-in, /root/IdeaProjects/Protector/build/tmp/compileJava/compileJava-mappings.tsrg, --live'
 Classpath:
  - /root/.gradle/caches/forge_gradle/maven_downloader/net/md-5/SpecialSource/1.11.0/SpecialSource-1.11.0-shaded.jar
  - /root/IdeaProjects/Protector/libs/Grue-1.12.2-1.8.1.jar
@@ -13,8 +13,10 @@ Classpath:
  - /root/IdeaProjects/Protector/libs/DarknessLib-1.12.2-1.1.2.jar
  - /root/IdeaProjects/Protector/libs/llibrary-1.7.19-1.12.2.jar
  - /root/IdeaProjects/Protector/libs/LoliPickaxe-1.2.12-1.12.2.jar
+ - /root/IdeaProjects/Protector/libs/勇者传说3.0.jar
  - /root/IdeaProjects/Protector/libs/CodeWither-mc1.12-0.2.3beta.jar
  - /root/IdeaProjects/Protector/libs/RedstoneFlux-1.12-2.1.1.1-universal.jar
+ - /root/IdeaProjects/Protector/libs/The+Ultimate+Dimension-2.0.2.jar
  - /root/IdeaProjects/Protector/libs/StemWeapon-2.0.8.jar
  - /root/IdeaProjects/Protector/libs/Draconic-Evolution-1.12.2-2.3.28.354-universal.jar
  - /root/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5-SNAPSHOT/afd548f754a72df63a853c0cc1d064b6fcf76441/mixin-0.8.5-SNAPSHOT.jar
@@ -100,13 +102,13 @@ Loading mappings... 50%
 0 packages, 3344 classes, 11915 fields, 20817 methods
 Remapping final jar
 Remapping jar...  3%
-Remapping jar... 13%
-Remapping jar... 22%
-Remapping jar... 31%
-Remapping jar... 41%
+Remapping jar... 10%
+Remapping jar... 20%
+Remapping jar... 30%
+Remapping jar... 40%
 Remapping jar... 50%
-Remapping jar... 63%
-Remapping jar... 72%
-Remapping jar... 81%
-Remapping jar... 91%
+Remapping jar... 60%
+Remapping jar... 70%
+Remapping jar... 80%
+Remapping jar... 90%
 Remapping jar... 100%

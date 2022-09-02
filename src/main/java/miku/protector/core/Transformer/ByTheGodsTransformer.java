@@ -9,7 +9,7 @@ public class ByTheGodsTransformer implements IClassTransformer {
         if ("com.shinoow.btg.common.rituals.AzathothInvocationRitual".equals(name)) {
 
             Mixins.addConfiguration("mixins.by_the_gods.json");
-            Util.rerunMixin();
+            CoreUtil.rerunMixin();
 
         }
         return basicClass;

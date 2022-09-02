@@ -8,6 +8,8 @@ import org.spongepowered.asm.service.MixinService;
 import javax.annotation.Nullable;
 import java.util.Map;
 
+@IFMLLoadingPlugin.MCVersion("1.12.2")
+@IFMLLoadingPlugin.Name("protector")
 public class CoreBooter implements IFMLLoadingPlugin {
     public CoreBooter(){
         MixinBootstrap.init();
@@ -20,12 +22,21 @@ public class CoreBooter implements IFMLLoadingPlugin {
         MixinService.getService().getTransformerProvider().addTransformerExclusion("com.shinoow.btg.common.util.PlayerKillUtil");
         MixinService.getService().getTransformerProvider().addTransformerExclusion("com.brandon3055.draconicevolution.lib.ExplosionHelper");
         MixinService.getService().getTransformerProvider().addTransformerExclusion("net.mcreator.stemweapon.procedure.ProcedureGoodbyeworldRedstoneOn");
-        return new String[]{"miku.protector.core.Transformer.ByTheGodsTransformer","miku.protector.core.Transformer.DragonTransformer","miku.protector.core.Transformer.StemWeaponTransformer"};
+        MixinService.getService().getTransformerProvider().addTransformerExclusion("com.brandon3055.draconicevolution.entity.ProcessChaosImplosion");
+        MixinService.getService().getTransformerProvider().addTransformerExclusion("com.brandon3055.draconicevolution.entity.ProcessChaosImplosion.ChaosImplosionTrace");
+        MixinService.getService().getTransformerProvider().addTransformerExclusion("com.github.alexthe666.iceandfire.entity.EntityGorgon");
+        MixinService.getService().getTransformerProvider().addTransformerExclusion("com.github.alexthe666.iceandfire.item.ItemGorgonHead");
+        return new String[]{
+                "miku.protector.core.Transformer.ByTheGodsTransformer",
+                "miku.protector.core.Transformer.DragonTransformer",
+                "miku.protector.core.Transformer.StemWeaponTransformer",
+                "miku.protector.core.Transformer.IceAndFireTransformer"
+        };
     }
 
     @Override
     public String getModContainerClass() {
-        return null;
+        return "miku.protector.core.Container";
     }
 
     @Nullable

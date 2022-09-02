@@ -9,7 +9,7 @@ public class StemWeaponTransformer implements IClassTransformer {
         if ("net.mcreator.stemweapon.procedure.ProcedureGoodbyeworldRedstoneOn".equals(name)) {
 
             Mixins.addConfiguration("mixins.stemweapon.json");
-            Util.rerunMixin();
+            CoreUtil.rerunMixin();
 
         }
         return basicClass;
