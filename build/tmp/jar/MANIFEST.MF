@@ -1,11 +1,11 @@
 Manifest-Version: 1.0
 Implementation-Title: protector
-Implementation-Version: 1.2
+Implementation-Version: 1.3
 FMLCorePluginContainsFMLMod: true
 Specification-Vendor: mcst12345
 Specification-Title: protector
-Implementation-Timestamp: 2022-09-02T17:56:09+0800
-Specification-Version: 1
+Implementation-Timestamp: 2022-12-18T09:46:45+0800
+Specification-Version: 1.3
 FMLCorePlugin: miku.protector.core.CoreBooter
 Implementation-Vendor: mcst12345
 

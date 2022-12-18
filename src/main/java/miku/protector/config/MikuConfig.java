@@ -57,7 +57,7 @@ public class MikuConfig {
     }
 
     public static void init() {
-        config = new Configuration(new File("config/mikulib.cfg"));
+        config = new Configuration(new File("config/protector.cfg"));
         load(false);
     }
 
