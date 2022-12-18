@@ -1,5 +1,7 @@
 package miku.protector.core;
 
+import miku.lib.core.MikuCore;
+import miku.protector.config.MikuConfig;
 import net.minecraftforge.fml.relauncher.IFMLLoadingPlugin;
 import org.spongepowered.asm.launch.MixinBootstrap;
 import org.spongepowered.asm.mixin.Mixins;
@@ -14,6 +16,8 @@ public class CoreBooter implements IFMLLoadingPlugin {
     public CoreBooter(){
         MixinBootstrap.init();
         Mixins.addConfiguration("mixins.protector.json");
+        MikuConfig.init();
+        if(MikuConfig.RescueMode) MikuCore.RescueMode=true;
     }
 
     @Override
